@@ -67,18 +67,22 @@
       <h1 class="text-center">Créez votre compte</h1>
       <p class="lead text-center">En toute simplicité</p>
 
-      <form action="" method="POST">
+      <form action="action/action-inx.php" method="POST">
         <div class="form-group">
           <label for="nom">Nom</label>
           <input type="text" class="form-control" id="nom" name="nom" required>
         </div>
         <div class="form-group">
-          <label for="email">Username</label>
-          <input type="email" class="form-control" id="email" name="email2" required placeholder="Votre adresse e-mail">
+          <label for="email">E-mail</label>
+          <input type="email" class="form-control" id="email" name="email" required placeholder="Votre adresse e-mail">
         </div>
         <div class="form-group">
           <label for="pwd">Mot de passe</label>
-          <input type="password" class="form-control" id="pwd" name="pwd" required>
+          <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <label for="code_parrain">code-parrain</label>
+          <input type="text" class="form-control" id="code_parrain" name="code_parrain">
         </div>
         <button type="submit" name="inscrire" class="btn btn-primary btn-block">S'inscrire</button>
       </form>

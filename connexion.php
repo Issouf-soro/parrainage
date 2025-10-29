@@ -113,17 +113,17 @@
       </div>
 
       <!-- Formulaire -->
-      <form action="" method="POST">
+      <form action="action/action-conx.php" method="POST">
         <div class="form-group">
-          <label for="email2">E-mail</label>
+          <label for="emai">E-mail</label>
           <input type="email" class="form-control" id="email2" name="email" placeholder="Votre adresse e-mail" required>
         </div>
         <div class="form-group">
           <div class="clearfix">
-            <label for="pwd" class="pull-left">Password</label>
+            <label for="password" class="pull-left">Password</label>
             <a href="#" class="pull-right forgot-password">Mot-de-pas-oublié</a>
           </div>
-          <input type="password" class="form-control" id="pwd" name="pwd" required>
+          <input type="password" class="form-control" id="password" name="password" required>
         </div>
         <button type="submit" class="btn btn-primary btn-block">Se-connecter</button>
       </form>
